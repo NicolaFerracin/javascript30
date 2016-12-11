@@ -31,7 +31,7 @@
     }
   }
 
-  function transitionend(e) {
+  function transitionend() {
     this.classList.remove('active');
   }
 
@@ -47,9 +47,7 @@
   }
 
   document.replay = () => {
-    if (log.length > 0) {
-      isReplaying = true;
-    }
+    isReplaying = true;
     log.forEach((entry, index) => {
       setTimeout(() => {
         playKey(entry.key);
