@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'Digital';
+  src: url('assets/digital.ttf');
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  background: linear-gradient(to left top, blue, red);
+}
+
+.clock {
+  border: 5px solid white;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+}
+
+.hand {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 0%;
+}
+
+.hours {
+  width: 120px;
+  border: 4px solid black;
+}
+
+.minutes {
+  width: 160px;
+  border: 3px solid black;
+}
+
+.seconds {
+  width: 180px;
+  border: 2px solid black;
+}
+
+.dot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 7px solid white;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.digital {
+  font-family: digital;
+  font-size: 200px;
+  color: white;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.time-zones {
+  font-family: digital;
+  font-size: 100px;
+  color: white;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
+
+.time-zones:hover {
+  cursor: pointer;
+}
+
+.active {
+  color: #00FF00;
+}

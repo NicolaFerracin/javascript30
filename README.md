@@ -8,3 +8,11 @@ Simple drum kit that can be played on the keaboard.
 
 ### Bonus
 Replay button that plays back the last sequence of keyboard/drum strokes, with correct timing between each stroke.
+
+---
+
+# Day 2 - Clock
+Clock with hands showing the current time.
+
+### Bonus
+Show digital clock with current time and allow the user to choose from different timezones (default, Jakarta, Rome, Melbourne, New York).
