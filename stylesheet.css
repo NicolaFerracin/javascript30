@@ -1,0 +1,12 @@
+body {
+  margin: 50px 30px;
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+header > h1 {
+  text-transform: uppercase;
+}
