@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CSS Variables</title>
+  <meta name="description" content="Vanilla Javascript 30 days Challenge">
+  <meta name="author" content="NicolaFerracin">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <h1>Image Filter With CSS Variable</h1>
+  <div class="filters">
+    <div>
+      <label for="border-color">Border Color</label>
+      <input type="color" name="border-color" value="#ff0000" data-unit""/>
+    </div>
+    <div>
+      <label for="border-width">Border Width</label>
+      <input type="range" name="border-width" max=20 min=0 value=2 data-unit="px"/>
+    </div>
+    <div>
+      <label for="blur">Blur</label>
+      <input type="range" name="blur" value="1" max=10 min=0 data-unit="px"/>
+    </div>
+    <div>
+      <label for="rotation">Rotation</label>
+      <input type="range" name="rotation" value="0" max=180 min=-180 data-unit="deg"/>
+    </div>
+  </div>
+  <img id="img" src="assets/cat.jpg"></img>
+  <script src="scripts.js"></script>
+</body>
+</html>

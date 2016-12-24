@@ -16,3 +16,8 @@ Clock with hands showing the current time.
 
 ### Bonus
 Show digital clock with current time and allow the user to choose from different timezones (default, Jakarta, Rome, Melbourne, New York).
+
+---
+
+# Day 3 - CSS Variables
+Explore CSS variables and how to change them through JS.

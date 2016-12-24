@@ -1,0 +1,41 @@
+:root {
+  --border-color: #ff0000;
+  --border-width: 2px;
+  --blur: 1px;
+  --rotation: 0deg;
+}
+
+body {
+  background-color: #499491;
+  text-align: center;
+  color: #212121;
+  font-family: "Helvetica Neue", "Calibri Light", Roboto, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.02em;
+}
+
+h1 {
+  color: #FBD400;
+}
+
+.filters > div {
+  margin: 10px;
+  color: white;
+}
+
+img {
+  position: relative;
+  z-index: -1;
+  max-width:100%;
+  max-height:100%;
+  border: solid;
+  border-color: var(--border-color);
+  border-width: var(--border-width);
+  filter: blur(var(--blur));
+  margin: 50px auto;
+  -ms-transform: rotate(var(--rotation));
+  -webkit-transform: rotate(var(--rotation));
+  transform: rotate(var(--rotation));
+} 
