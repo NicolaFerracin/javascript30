@@ -1,0 +1,71 @@
+html, body, .planets, .planet {
+  height: 100%;
+}
+
+body {
+  background-color: #2C3D4F;
+  text-align: center;
+  color: white;
+  font-family: "Helvetica Neue", "Calibri Light", Roboto, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
+.planets {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.planet {
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: flex 1s cubic-bezier(0.46, -0.49, 0.85, 1.25);
+}
+
+.planet h2 {
+  transform: translateY(-10000%);
+}
+
+.planet.open {
+  flex: 10;
+}
+
+.planet.active h2{
+  transform: translateY(0);
+  font-size: 200%;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.earth {
+  background-image: url("assets/earth.jpg");
+}
+.jupiter {
+  background-image: url("assets/jupiter.jpg");
+}
+.mars {
+  background-image: url("assets/mars.jpg");
+}
+.mercury {
+  background-image: url("assets/mercury.jpg");
+}
+.neptune {
+  background-image: url("assets/neptune.jpg");
+}
+.saturn {
+  background-image: url("assets/saturn.jpg");
+}
+.uranus {
+  background-image: url("assets/uranus.jpg");
+}
+.venus {
+  background-image: url("assets/venus.jpg");
+}
