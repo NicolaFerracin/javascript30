@@ -26,3 +26,8 @@ Explore CSS variables and how to change them through JS.
 
 # Day 4 - Array Cardio Part1
 Modify and extract data from arrays using .map(), .reduce(), .filter(), .sort()
+
+---
+
+# Day 5 - Flex Gallery
+Create an interactive image gallery using flxebox.
