@@ -1,0 +1,38 @@
+body {
+  background-color: #2A528A;
+  text-align: center;
+  color: #E9D498;
+  font-family: "Helvetica Neue", "Calibri Light", Roboto, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.02em;
+}
+
+.search {
+  margin: 50px 100px;
+}
+
+input {
+  height: 40px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.results {
+  padding: 0;
+}
+
+.results li {
+  text-transform: capitalize;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.highlighted {
+  background-color: #9F71DB;
+  font-weight: bold;
+}
