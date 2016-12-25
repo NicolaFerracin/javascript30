@@ -21,3 +21,8 @@ Show digital clock with current time and allow the user to choose from different
 
 # Day 3 - CSS Variables
 Explore CSS variables and how to change them through JS.
+
+---
+
+# Day 4 - Array Cardio Part1
+Modify and extract data from arrays using .map(), .reduce(), .filter(), .sort()
