@@ -39,10 +39,15 @@ Use fetch() to get a list of 1000 cities in the US and add a search by City or S
 
 ---
 
-# Day 9 - Shift multiple selection
+# Day 10 - Shift multiple selection
 Allow multiple selection of checkboxes while holding the shift-key down.
 
 ---
 
-# Day 10 - HTML5 custom video player
+# Day 11 - HTML5 custom video player
 Play, pause, toggle fullscreen, change speed and volume and skip 10 seconds ahead or back. Everything with the native HTML5 browser video api.
+
+---
+
+# Day 12 - Konami Code key sequence detector
+Detect the correct input of the Konami code on the keyboard.
