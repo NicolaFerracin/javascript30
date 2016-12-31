@@ -1,0 +1,19 @@
+body {
+  background-color: #234C63;
+  text-align: center;
+  color: #FFC85B;
+  font-family: "Helvetica Neue", "Calibri Light", Roboto, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.02em;
+}
+
+label {
+  font-size: 30px;
+}
+
+input[type=checkbox]:checked + label {
+  color:  #379956;
+  text-decoration: line-through;
+}
