@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Custom Video Player</title>
+  <meta name="description" content="Vanilla Javascript 30 days Challenge">
+  <meta name="author" content="NicolaFerracin">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <div class="player">
+    <video class="player-video" src="https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164"></video>
+    <div class="player-controls">
+      <div class="video-time-full">
+        <div class="video-current-time">
+        </div>
+      </div>
+      <div class="player-controls-bottom">
+        <button class="video-play">►</button>
+        <input class="video-volume" name="volume" type="range" min="0" max="100" value="50" />
+        <input class="video-speed" name="playbackRate" type="range" min="0" max="200" value="100" />
+        <button data-change="-10" class="video-change-time">-10s</button>
+        <button data-change="10" class="video-change-time">+10s</button>
+        <button class="video-fullscreen">↔</button>
+      </div>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
