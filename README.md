@@ -56,3 +56,9 @@ Detect the correct input of the Konami code on the keyboard.
 
 # Day 13 - Slide in on scroll
 Show images on scroll down.
+
+---
+
+# Day 14 - LocalStorage and Event delegation
+Write down all the presents you need to buy this Christmas and check them out once done.
+The list of gifts and their status will persist after refreshing the page.
