@@ -51,3 +51,8 @@ Play, pause, toggle fullscreen, change speed and volume and skip 10 seconds ahea
 
 # Day 12 - Konami Code key sequence detector
 Detect the correct input of the Konami code on the keyboard.
+
+---
+
+# Day 13 - Slide in on scroll
+Show images on scroll down.
