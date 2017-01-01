@@ -72,3 +72,8 @@ Dynamic shadow effect following the mouse movement.
 
 # Day 16 - Array sort
 Simple array sort, sorting a list of bands names without considering the articles at the beginning.
+
+---
+
+# Day 17 - Using reduce to add up time
+Use map and reduce on multiple elements on the page to extract the video duration, add it together and find out the total in the format HH:MM:SS.
