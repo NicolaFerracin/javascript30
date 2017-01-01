@@ -67,3 +67,8 @@ The list of gifts and their status will persist after refreshing the page.
 
 # Day 15 - Shadow on mouse move FX
 Dynamic shadow effect following the mouse movement.
+
+---
+
+# Day 16 - Array sort
+Simple array sort, sorting a list of bands names without considering the articles at the beginning.
