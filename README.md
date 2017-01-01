@@ -66,4 +66,4 @@ The list of gifts and their status will persist after refreshing the page.
 ---
 
 # Day 15 - Shadow on mouse move FX
-Dynamic shadow following the mouse movement.
+Dynamic shadow effect following the mouse movement.
