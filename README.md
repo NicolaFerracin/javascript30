@@ -62,3 +62,8 @@ Show images on scroll down.
 # Day 14 - LocalStorage and Event delegation
 Write down all the presents you need to buy this Christmas and check them out once done.
 The list of gifts and their status will persist after refreshing the page.
+
+---
+
+# Day 15 - Shadow on mouse move FX
+Dynamic shadow following the mouse movement.
