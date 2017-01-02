@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Console methods</title>
+  <meta name="description" content="Vanilla Javascript 30 days Challenge">
+  <meta name="author" content="NicolaFerracin">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id='title'>Day 9 - console methods</h1>
+    <h2><i>A list of a few not-so-known console methods to be used during debugging.</i></h2>
+    <p>Open the console to see the results.</p>
+    <h3>1. console.log() - The evergreen</h3>
+    <p>Just to print simple messages. You can style the messages or also add variables to check their content.</p>
+    <pre>
+      // Normal
+      const array = [1, 2, 3, 4];
+      console.log('String');
+      console.log('String', array);
+
+      // Interpolated
+      const country = 'Antartica';
+      console.log('I\'m from %s. And you?', country);
+
+      // Styled
+      const style = 'font-size: 30px; background-color: black; color: white;'
+      console.log('%cStyle console log', style);
+    </pre>
+
+    <h3>2. Inform, warn or show errors</h3>
+    <pre>
+      console.info('Thank you for visiting this page.');
+      console.warn('Don\'t paste here any script coming from people you don\'t know');
+      console.error('Something went wrong, try to reload the page.');
+    </pre>
+
+    <h3>3. Run assertions</h3>
+    <p>Check if variables have expected values.</p>
+    <pre>
+      const expectedTitle = 'Console methods.';
+      const actualTitle = document.querySelector('title').text;
+      console.assert(actualTitle === expectedTitle, `The page title is not correct. Expected: "${expectedTitle}" - Actual: "${actualTitle}"`)
+    </pre>
+
+    <h3>4. Clear the console</h3>
+    <p>For when your console gets stuffed with messages and you need to clean it up.</p>
+    <pre>
+      console.clear();
+    </pre>
+
+    <h3>5. List DOM objects' properties</h3>
+    <p>Can be used with other types of variables too, but the differences with console.log are not that many. That's why this method is particularly useful when you need to see all the possible methods you can call on a specific DOM Element.</p>
+    <pre>
+      const paragraph = document.querySelector('p');
+      console.log(paragraph);
+      console.dir(paragraph);
+    </pre>
+
+    <h3>6. What time is it?</h3>
+    <p>Track how long something takes with console.time() and console</p>
+    <pre>
+      // how long does it take to populate an array with 100,000,000 elements?
+      let array = [];
+      const MAX_ARRAY_LENGTH = 100000000;
+      console.time('Populate array');
+      for (let i = 0; i < MAX_ARRAY_LENGTH, i++) {
+        array.push(i);
+      }
+      console.timeEnd('Populate array');
+    </pre>
+
+    <h3>7. Never lose count again!</h3>
+    <p>For when you console.log the same thing over and over again and need to count them all.</p>
+    <pre>
+      // How many Fizz from 1 to 46125? How many Buzz? How many FizzBuzz?
+      const countTo = 46125;
+      for (let i = 1; i <= countTo; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
+          console.count('FizzBuzz');
+        } else if (i % 3 === 0) {
+          console.count('Fizz');
+        } else if (i % 5 === 0) {
+          console.count('Buzz');
+        }
+      }
+    </pre>
+    </pre>
+
+    <h3>8. Useful console methods for arrays of objects</h3>
+    <p>With console.groupCollapsed() you can group together a bunch of console.log that all belong to the same group. With console.table you can show the whole content of an array of objects in a neat and clean table.</p>
+    <pre>
+      const cities = [
+        { name: 'Jakarta', nation: 'Indonesian', language: 'Indonesian', continent: 'Asia'},
+        { name: 'Tokyo', nation: 'Japan', language: 'Japanese', continent: 'Asia'},
+        { name: 'Rome', nation: 'Italy', language: 'Italian', continent: 'Europe'},
+        { name: 'Lima', nation: 'Peru', language: 'Spanish', continent: 'South America'},
+        { name: 'Maputo', nation: 'Mozambique', language: 'Portuguese', continent: 'Africa'}
+      ];
+      cities.forEach(city => {
+        console.groupCollapsed(`${city.name}`);
+        console.log(`City name: ${city.name}`);
+        console.log(`City nation: ${city.nation}`);
+        console.log(`City language: ${city.language}`);
+        console.log(`City continent: ${city.continent}`);
+        console.groupEnd(`${city.name}`);
+      });
+    </pre>
+
+    <h2>Bonus methods!</h2>
+    <h3>8. Useful console methods for arrays of objects</h3>
+    <p>With console.groupCollapsed() you can group together a bunch of console.log that all belong to the same group. With console.table you can show the whole content of an array of objects in a neat and clean table.</p>
+    <pre>
+      .trace() -> to trace your call
+      .profile() -> check CPU consumption
+      monitor() -> check what's given to a specific function
+    </pre>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
