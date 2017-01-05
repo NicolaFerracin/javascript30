@@ -49,6 +49,11 @@ Use HTML5 Canvas to create a fun painting brush to use with the mouse
 
 ---
 
+#Day 9 - Console methods
+A long list of not so well-known console methods and related usage. Bonus included!
+
+---
+
 # Day 10 - Shift multiple selection
 Allow multiple selection of checkboxes while holding the shift-key down.
 

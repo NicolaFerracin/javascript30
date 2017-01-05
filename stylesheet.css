@@ -12,3 +12,11 @@ header {
 header > h1 {
   text-transform: uppercase;
 }
+
+header > img {
+  text-align: center;
+}
+
+article {
+  padding: 50px 200px;
+}

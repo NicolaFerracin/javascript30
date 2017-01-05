@@ -86,37 +86,39 @@
         }
       }
     </pre>
-    </pre>
+  </pre>
 
-    <h3>8. Useful console methods for arrays of objects</h3>
-    <p>With console.groupCollapsed() you can group together a bunch of console.log that all belong to the same group. With console.table you can show the whole content of an array of objects in a neat and clean table.</p>
-    <pre>
-      const cities = [
-        { name: 'Jakarta', nation: 'Indonesian', language: 'Indonesian', continent: 'Asia'},
-        { name: 'Tokyo', nation: 'Japan', language: 'Japanese', continent: 'Asia'},
-        { name: 'Rome', nation: 'Italy', language: 'Italian', continent: 'Europe'},
-        { name: 'Lima', nation: 'Peru', language: 'Spanish', continent: 'South America'},
-        { name: 'Maputo', nation: 'Mozambique', language: 'Portuguese', continent: 'Africa'}
-      ];
-      cities.forEach(city => {
-        console.groupCollapsed(`${city.name}`);
-        console.log(`City name: ${city.name}`);
-        console.log(`City nation: ${city.nation}`);
-        console.log(`City language: ${city.language}`);
-        console.log(`City continent: ${city.continent}`);
-        console.groupEnd(`${city.name}`);
-      });
-    </pre>
+  <h3>8. Useful console methods for arrays of objects</h3>
+  <p>With console.groupCollapsed() you can group together a bunch of console.log that all belong to the same group. With console.table you can show the whole content of an array of objects in a neat and clean table.</p>
+  <pre>
+    const cities = [
+    { name: 'Jakarta', nation: 'Indonesian', language: 'Indonesian', continent: 'Asia'},
+    { name: 'Tokyo', nation: 'Japan', language: 'Japanese', continent: 'Asia'},
+    { name: 'Rome', nation: 'Italy', language: 'Italian', continent: 'Europe'},
+    { name: 'Lima', nation: 'Peru', language: 'Spanish', continent: 'South America'},
+    { name: 'Maputo', nation: 'Mozambique', language: 'Portuguese', continent: 'Africa'}
+    ];
+    cities.forEach(city => {
+      console.groupCollapsed(`${city.name}`);
+      console.log(`City name: ${city.name}`);
+      console.log(`City nation: ${city.nation}`);
+      console.log(`City language: ${city.language}`);
+      console.log(`City continent: ${city.continent}`);
+      console.groupEnd(`${city.name}`);
+    });
+  </pre>
 
-    <h2>Bonus methods!</h2>
-    <h3>8. Useful console methods for arrays of objects</h3>
-    <p>With console.groupCollapsed() you can group together a bunch of console.log that all belong to the same group. With console.table you can show the whole content of an array of objects in a neat and clean table.</p>
-    <pre>
-      .trace() -> to trace your call
-      .profile() -> check CPU consumption
-      monitor() -> check what's given to a specific function
-    </pre>
-  </div>
-  <script src="scripts.js"></script>
+  <h2>Bonus methods!</h2>
+  <h3>8. Useful console methods for arrays of objects</h3>
+  <p>With console.groupCollapsed() you can group together a bunch of console.log that all belong to the same group. With console.table you can show the whole content of an array of objects in a neat and clean table.</p>
+  <pre>
+    .trace() -> call it at a specific point in your code and see the stack trace in the logs to be able to trace how, from where and when it gets called
+    <hr  />
+    .profile() -> start it with a name console.profile('String') and finish it with console.profileEnd('String'). Eveything that happens in between is registered and profiled and can be accessed in the 'Profiles' tab in the browser.
+    <hr />
+    monitor() -> check what's given to a specific function. Use case: let's say you have a function checkIfValid() that gets called every 2 seconds and you want to know values are passed into every time, while your code is running: open your console, type monitor(checkIfValid) and wait for the info to pop up on the screen.
+  </pre>
+</div>
+<script src="scripts.js"></script>
 </body>
 </html>
