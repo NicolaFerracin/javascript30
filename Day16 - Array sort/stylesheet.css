@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #252A34;
+  text-align: center;
+  color: #08D9D6;
+  font-family: "Helvetica Neue", "Calibri Light", Roboto, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.02em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: transparent;
+  border: 3px solid #08D9D6;
+  border-radius: 5px;
+  color: #08D9D6;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}

@@ -49,5 +49,41 @@ Use HTML5 Canvas to create a fun painting brush to use with the mouse
 
 ---
 
-# Day 9 - Shift multiple selection
+# Day 10 - Shift multiple selection
 Allow multiple selection of checkboxes while holding the shift-key down.
+
+---
+
+# Day 11 - HTML5 custom video player
+Play, pause, toggle fullscreen, change speed and volume and skip 10 seconds ahead or back. Everything with the native HTML5 browser video api.
+
+---
+
+# Day 12 - Konami Code key sequence detector
+Detect the correct input of the Konami code on the keyboard.
+
+---
+
+# Day 13 - Slide in on scroll
+Show images on scroll down.
+
+---
+
+# Day 14 - LocalStorage and Event delegation
+Write down all the presents you need to buy this Christmas and check them out once done.
+The list of gifts and their status will persist after refreshing the page.
+
+---
+
+# Day 15 - Shadow on mouse move FX
+Dynamic shadow effect following the mouse movement.
+
+---
+
+# Day 16 - Array sort
+Simple array sort, sorting a list of bands names without considering the articles at the beginning.
+
+---
+
+# Day 17 - Using reduce to add up time
+Use map and reduce on multiple elements on the page to extract the video duration, add it together and find out the total in the format HH:MM:SS.
