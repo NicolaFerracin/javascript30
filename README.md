@@ -31,10 +31,22 @@ Modify and extract data from arrays using .map(), .reduce(), .filter(), .sort()
 
 # Day 5 - Flex Gallery
 Create an interactive image gallery using flxebox.
+
 ---
 
 # Day 6 - Ajax and Search Filter
 Use fetch() to get a list of 1000 cities in the US and add a search by City or State funcionality.
+
+---
+
+#Day 7 - Array Cardio Part2
+Modify and extract data from arrays using .some(), .every(), .find(), .findIndex()
+
+---
+
+#Day 8 - Canvas painting
+Use HTML5 Canvas to create a fun painting brush to use with the mouse
+
 ---
 
 # Day 9 - Shift multiple selection

@@ -1,0 +1,22 @@
+body {
+  background-color: #6A2C70;
+  text-align: center;
+  color: #F9ED69;
+  font-family: "Helvetica Neue", "Calibri Light", Roboto, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.02em;
+}
+
+pre {
+  text-align: left;
+  background-color: #B83B5E;
+  white-space: pre-wrap;       /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;
+  margin: 0px 150px;
+  border-radius: 5px;
+}
