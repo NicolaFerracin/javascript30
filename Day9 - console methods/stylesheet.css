@@ -21,3 +21,14 @@ pre {
   border-radius: 5px;
   padding: 40px;
 }
+
+button {
+  border: 3px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+}

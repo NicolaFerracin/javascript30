@@ -20,11 +20,13 @@ li {
 }
 
 button {
+  border: 3px solid white;
   background-color: transparent;
-  border: 3px solid #08D9D6;
-  border-radius: 5px;
-  color: #08D9D6;
+  color: white;
   padding: 10px;
-  font-size: 20px;
+  margin: 10px;
   cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
 }

@@ -55,3 +55,14 @@ button {
     background-color: #3A4750;
     margin: 20px auto;
 }
+
+.showJs {
+  border: 3px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+}

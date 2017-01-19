@@ -1,0 +1,10 @@
+button {
+  border: 3px solid black;
+  background-color: transparent;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+}

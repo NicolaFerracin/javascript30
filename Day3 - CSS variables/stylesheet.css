@@ -38,4 +38,18 @@ img {
   -ms-transform: rotate(var(--rotation));
   -webkit-transform: rotate(var(--rotation));
   transform: rotate(var(--rotation));
-} 
+}
+
+button {
+  border: 3px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.buttons {
+  margin: 10px;
+  position: absolute;
+  left: 0;
+}

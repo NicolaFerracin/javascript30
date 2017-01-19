@@ -21,3 +21,15 @@ h1 {
   border: 10px solid #08D9D6;
   padding: 50px;
 }
+
+button {
+  border: 3px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+}

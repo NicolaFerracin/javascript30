@@ -69,3 +69,14 @@ body {
 .venus {
   background-image: url("assets/venus.jpg");
 }
+
+button {
+  border: 3px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+}
