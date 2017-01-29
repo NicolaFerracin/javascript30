@@ -99,3 +99,8 @@ Use map and reduce on multiple elements on the page to extract the video duratio
 Highlight links on hover with a nice animation effect.
 
 ---
+
+# Day 23 - Speech Synthesizer
+Speech Synthesizer turning text into speech, using HTML5 speechSynthesis API. Change rate, text, pitch and language!
+
+---

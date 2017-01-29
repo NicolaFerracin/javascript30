@@ -1,0 +1,79 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #D1EBFE;
+  text-align: center;
+  color: #2AAF74;
+  font-family: "Helvetica Neue", "Calibri Light", Roboto, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.02em;
+  font-size: 30px;
+}
+
+.button {
+  border: 3px solid #2AAF74;
+  background-color: transparent;
+  color: #2AAF74;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.flex-v {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.synth {
+  border: 2px solid #4ED99C;
+  background-color: #F6FAF7;
+  width: 400px;
+  box-shadow:0 0 5px 5px rgba(0,0,0,0.1);
+}
+
+.synth > * {
+  padding: 30px;
+}
+
+.header {
+  font-size: 50px;
+  border-bottom: 5px solid #4ED99C;
+}
+
+.commands {
+  width: 80%;
+  align-items: initial;
+}
+
+.commands * {
+  margin-top: 10px;
+}
+
+.commands label {
+  align-self: flex-start;
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.actions button {
+  border: 3px solid #2AAF74;
+  background-color: transparent;
+  color: #2AAF74;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 30px;
+}
