@@ -104,3 +104,8 @@ Highlight links on hover with a nice animation effect.
 Speech Synthesizer turning text into speech, using HTML5 speechSynthesis API. Change rate, text, pitch and language!
 
 ---
+
+# Day 24 - Sticky Nav
+Sticky navigator that starts at the bottom of the header and becomes sticky after scrolling, with Logo slide-in animation.
+
+---
