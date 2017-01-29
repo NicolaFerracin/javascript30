@@ -74,21 +74,21 @@ Show images on scroll down.
 
 ---
 
-# Day 14 - LocalStorage and Event delegation
+# Day 15 - LocalStorage and Event delegation
 Write down all the presents you need to buy this Christmas and check them out once done.
 The list of gifts and their status will persist after refreshing the page.
 
 ---
 
-# Day 15 - Shadow on mouse move FX
+# Day 16 - Shadow on mouse move FX
 Dynamic shadow effect following the mouse movement.
 
 ---
 
-# Day 16 - Array sort
+# Day 17 - Array sort
 Simple array sort, sorting a list of bands names without considering the articles at the beginning.
 
 ---
 
-# Day 17 - Using reduce to add up time
+# Day 18 - Using reduce to add up time
 Use map and reduce on multiple elements on the page to extract the video duration, add it together and find out the total in the format HH:MM:SS.
