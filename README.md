@@ -92,3 +92,10 @@ Simple array sort, sorting a list of bands names without considering the article
 
 # Day 18 - Using reduce to add up time
 Use map and reduce on multiple elements on the page to extract the video duration, add it together and find out the total in the format HH:MM:SS.
+
+---
+
+# Day 22 - Links Highlighter
+Highlight links on hover with a nice animation effect.
+
+---
