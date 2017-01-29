@@ -54,10 +54,10 @@ A long list of not so well-known console methods and related usage. Bonus includ
 
 ---
 
-# Day 10 - Shift multiple selection
+<!-- # Day 10 - Shift multiple selection
 Allow multiple selection of checkboxes while holding the shift-key down.
 
----
+--- -->
 
 # Day 11 - HTML5 custom video player
 Play, pause, toggle fullscreen, change speed and volume and skip 10 seconds ahead or back. Everything with the native HTML5 browser video api.
