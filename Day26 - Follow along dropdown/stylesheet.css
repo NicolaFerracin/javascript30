@@ -1,0 +1,84 @@
+body {
+  background-color: #3C3B5C;
+  text-align: center;
+  color: black;
+  font-family: "Helvetica Neue", "Calibri Light", Roboto, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.02em;
+  font-size: 30px;
+  margin: 0 150px;
+}
+
+button {
+  border: 3px solid #D53939;
+  background-color: transparent;
+  color: #D53939;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #D53939;
+}
+
+.highlight {
+  z-index: -1;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: #fff;
+  border-radius: 4px;
+  transition:all 0.3s, opacity 0.1s, translate 0.2s;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  top: 0;
+  left: 0;
+}
+
+.highlight.open {
+  opacity: 1;
+}
+
+.arrow {
+  position: absolute;
+  width:20px;
+  height:20px;
+  display: block;
+  background:white;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.dropdown {
+  margin-top: 20px;
+  display: none;
+  opacity: 0;
+  padding: 20px;
+  transition: all 0.4s;
+}
+
+.dropdown.visible {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown.active {
+  opacity: 1;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  list-style: none;
+  flex: 1;
+}

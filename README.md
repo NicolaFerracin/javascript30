@@ -109,3 +109,8 @@ Speech Synthesizer turning text into speech, using HTML5 speechSynthesis API. Ch
 Sticky navigator that starts at the bottom of the header and becomes sticky after scrolling, with Logo slide-in animation.
 
 ---
+
+# Day 26 - Follow along dropdown
+Navigator with dropdowns with smooth onhover animation, moving from one to the other.
+
+---
