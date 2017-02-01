@@ -24,15 +24,5 @@ function onMouseEnter() {
 function onMouseLeave() {
   const dropdown = this.querySelector('.dropdown');
   dropdown.classList.remove('visible', 'active');
-  const linkCoords = dropdown.getBoundingClientRect();
-  const coords = {
-    width: linkCoords.width,
-    height: linkCoords.height,
-    top: linkCoords.top + window.scrollY,
-    left: linkCoords.left + window.scrollX
-  }
   highlight.classList.remove('open');
-  highlight.style.height = `${coords.height}px` ;
-  highlight.style.width = `${coords.width}px`;
-  highlight.style.transform = `translate(${coords.left}px, ${coords.top}px)`
 }
