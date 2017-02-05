@@ -132,3 +132,6 @@ Change the speed of the video using three methods: hover on speed bar, mouse whe
 Manage your time with this useful countdown clock. Add predefined chunk of times to your countdown or add custom amounts. Don't ever be late again!
 
 ---
+
+## [Day 30 - Whack-a-mole! >>](https://www.nicolaferracin.com/projects/javascript30/Day30 - Whack-a-mole/index.html)
+Play against the moles and hit as many as you can! You have 10 seconds!
