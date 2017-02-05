@@ -1,0 +1,123 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(to left top, #93cede, #49a5bf);
+  text-align: center;
+  color: black;
+  font-family: "Helvetica Neue", "Calibri Light", Roboto, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.02em;
+  font-size: 20px;
+  margin: 0 150px;
+  color: white;
+}
+
+button {
+  border: 3px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.button {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+@font-face {
+  font-family: 'Digital';
+  src: url('assets/digital.ttf');
+}
+
+.countdown {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.clock {
+  font-family: digital;
+  font-size: 200px;
+  color: white;
+}
+
+.clock.timeup {
+  animation: shake 1s 0s 5;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 2px solid white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 30px;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.2s;
+  height: 100%;
+  margin-bottom: 2px;
+}
+
+nav ul li:hover {
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.inputs {
+  margin-top: 50px;
+}
+
+.inputs input {
+  width: 25%;
+  text-align: center;
+  font-family: digital;
+  font-size: 50px;
+}
+
+.inputs button {
+  float: right;
+}
+
+#resetTime {
+  color: white;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate(-1px, 0);
+    color: red;
+  }
+  20%, 80% {
+    transform: translate(2px, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate(-4px, 0);
+    color: white;
+  }
+  40%, 60% {
+    transform: translate(4px, 0);
+    color: white;
+  }
+}

@@ -127,3 +127,8 @@ Hover on the speed controller bar to change the video speed in real time.
 Change the speed of the video using three methods: hover on speed bar, mouse wheel, left and right keyboard keys.
 
 ---
+
+## [Day 29 - Countdown Clock >>](https://www.nicolaferracin.com/projects/javascript30/Day29 - Countdown Clock/index.html)
+Manage your time with this useful countdown clock. Add predefined chunk of times to your countdown or add custom amounts. Don't ever be late again!
+
+---

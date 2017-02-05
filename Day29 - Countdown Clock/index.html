@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Countdown Clock</title>
+  <meta name="description" content="Vanilla Javascript 30 days Challenge">
+  <meta name="author" content="NicolaFerracin">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <a href="scripts.js" target="new"><button class="button">Show JavaScript</button></a>
+  <nav>
+    <ul>
+      <li data-time="10">
+        10 Seconds
+      </li>
+      <li data-time="30">
+        30 Seconds
+      </li>
+      <li data-time="60">
+        1 Minute
+      </li>
+      <li data-time="900">
+        15 Minutes
+      </li>
+      <li data-time="3600">
+        1 Hour
+      </li>
+      <li data-time="21600">
+        6 Hours
+      </li>
+      <li data-time="86400">
+        1 Day
+      </li>
+    </ul>
+  </nav>
+  <div class="countdown">
+    <div class="clock">
+      00:00:00
+    </div>
+    <a href="#" id="resetTime" onclick="resetTime()">
+      &#8635;
+    </a>
+    <div class="text">
+      Please, select a an amount from the top-bar or write one here below.
+      <div class="inputs">
+        <input data-multi="3600" placeholder="hours" type="number" />
+        <input data-multi="60" placeholder="minutes" type="number" />
+        <input data-multi="1" placeholder="seconds" type="number" />
+        <button onclick="addCustomTime()">ADD</button>
+      </div>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
