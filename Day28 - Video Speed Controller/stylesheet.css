@@ -1,0 +1,48 @@
+body {
+  background-color: #323232;
+  text-align: center;
+  color: black;
+  font-family: "Helvetica Neue", "Calibri Light", Roboto, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.02em;
+  font-size: 20px;
+  margin: 0 150px;
+  color: #14FFEC;
+}
+
+button {
+  border: 3px solid #14FFEC;
+  background-color: transparent;
+  color: #14FFEC;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.video-player {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.speed {
+  height: 30px;
+  width: 761px;
+  border: 2px solid #0D7377;
+  background-color: transparent;
+}
+
+.speed-bar {
+  text-align: right;
+  width: 25%;
+  background-color: #0D7377;
+  color: white;
+  height: 30px;
+}

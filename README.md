@@ -119,3 +119,11 @@ Navigator with dropdowns with smooth onhover animation, moving from one to the o
 Smooth click&drag effect. Experimenting with 3D perspective.
 
 ---
+
+## [Day 28 - Video Speed Controller >>](https://www.nicolaferracin.com/projects/javascript30/Day28 - Video Speed Controller/index.html)
+Hover on the speed controller bar to change the video speed in real time.
+
+### Bonus
+Change the speed of the video using three methods: hover on speed bar, mouse wheel, left and right keyboard keys.
+
+---
