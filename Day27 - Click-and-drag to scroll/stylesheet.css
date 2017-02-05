@@ -1,0 +1,105 @@
+body {
+  background-color: #3C3B5C;
+  text-align: center;
+  color: black;
+  font-family: "Helvetica Neue", "Calibri Light", Roboto, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.02em;
+  font-size: 30px;
+  margin: 0 150px;
+}
+
+button {
+  border: 3px solid #D53939;
+  background-color: transparent;
+  color: #D53939;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.items {
+  margin-top: 150px;
+  height: 400px;
+  margin-bottom: 150px;
+  padding: 150px;
+  -webkit-perspective: 600px;
+  -moz-perspective: 600px;
+  -o-perspective: 600px;
+  perspective: 600px;
+  perspective-origin: top;
+  will-change: transform;
+  background: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  white-space: nowrap;
+  overflow: hidden;
+  user-select: none;
+  transition: all 0.2s;
+}
+
+.items.active {
+  transform: scale(1.05);
+  background: rgba(255,255,255,0.6);
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+}
+
+.item {
+  height: 200px;
+  width: 600px;
+  text-align: center;
+  box-shadow: inset 0 0 0 10px rgba(0,0,0,0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  color: #555;
+}
+
+.item.active {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+  box-shadow: inset 0 0 0 10px rgba(255,255,255,0.5);
+}
+
+.item:nth-child(even) {
+  transform: scale(1.06) rotateX(20deg);
+}
+.item:nth-child(odd) {
+  transform: scale(1.06) rotateX(-20deg);
+}
+
+.item:nth-child(9n+1) {
+  background-color: orange;
+}
+.item:nth-child(9n+2) {
+  background-color: SteelBlue;
+}
+.item:nth-child(9n+3) {
+  background-color: tomato;
+}
+.item:nth-child(9n+4) {
+  background-color: SpringGreen;
+}
+.item:nth-child(9n+5) {
+  background-color: PowderBlue;
+}
+.item:nth-child(9n+6) {
+  background-color: PaleVioletRed;
+}
+.item:nth-child(9n+7) {
+  background-color: OliveDrab;
+}
+.item:nth-child(9n+8) {
+  background-color: Linen;
+}
+.item:nth-child(9n+9) {
+  background-color: DodgerBlue;
+}

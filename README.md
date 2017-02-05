@@ -114,3 +114,8 @@ Sticky navigator that starts at the bottom of the header and becomes sticky afte
 Navigator with dropdowns with smooth onhover animation, moving from one to the other.
 
 ---
+
+# Day 27 - Click-and-drag to scroll
+Smooth click&drag effect. Experimenting with 3D perspective.
+
+---
