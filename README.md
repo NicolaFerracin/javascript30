@@ -133,5 +133,5 @@ Manage your time with this useful countdown clock. Add predefined chunk of times
 
 ---
 
-## [Day 30 - Whack-a-mole! >>](https://www.nicolaferracin.com/projects/javascript30/Day30 - Whack-a-mole/index.html)
+## [Day 30 - Whack-a-mole! >>](https://www.nicolaferracin.com/projects/javascript30/Day30 - Whack-a-mole!/index.html)
 Play against the moles and hit as many as you can! You have 10 seconds!
