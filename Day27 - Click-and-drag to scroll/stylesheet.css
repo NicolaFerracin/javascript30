@@ -25,6 +25,7 @@ button {
 }
 
 .items {
+  display: inline-block;
   height: 400px;
   padding: 150px;
   -webkit-perspective: 600px;
