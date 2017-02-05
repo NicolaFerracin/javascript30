@@ -9,6 +9,7 @@ body {
   letter-spacing: 0.02em;
   font-size: 30px;
   margin: 0 150px;
+  color: white;
 }
 
 button {
@@ -24,9 +25,7 @@ button {
 }
 
 .items {
-  margin-top: 150px;
   height: 400px;
-  margin-bottom: 150px;
   padding: 150px;
   -webkit-perspective: 600px;
   -moz-perspective: 600px;
